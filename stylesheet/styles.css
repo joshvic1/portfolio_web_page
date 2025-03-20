@@ -1,11 +1,14 @@
+/* Styling the universal sector */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* Styling the body */
 body {
   font-family: roboto;
 }
+/* Styling the header section */
 header {
   display: flex;
   align-items: center;
@@ -24,6 +27,7 @@ header form {
   background-color: white;
   padding: 5px;
 }
+/* Styling the navbar in the header section */
 nav div ul {
   display: flex;
   gap: 10px;
@@ -43,6 +47,7 @@ nav div ul li a:hover {
 nav div ul li a:active {
   color: rgb(255, 164, 164);
 }
+/* Styling class=intro */
 .intro {
   display: flex;
   align-items: center;
@@ -55,22 +60,28 @@ nav div ul li a:active {
   padding: 8px;
   margin: 0 40px;
 }
-.introdiv h2,
-p {
-  padding-bottom: 30px;
+.introdiv h2 {
+  padding-bottom: 20px;
+}
+.introdiv p {
+  text-align: start;
 }
 .introdiv button {
   padding: 8px;
   color: white;
-  background-color: maroon;
+  background-color: rgb(0, 0, 0);
   border: 2px solid black;
   border-radius: 5px;
   font-size: 9px;
 }
 .introdiv button:hover {
-  background-color: black;
+  background-color: maroon;
   border: 2px solid white;
   cursor: pointer;
+}
+.intro button a {
+  text-decoration: none;
+  color: white;
 }
 .intro img {
   border-radius: 50%;
@@ -81,6 +92,7 @@ p {
   border: 2px solid black;
   box-shadow: inset;
 }
+/* Styling the specialties section */
 .specialties {
   padding: 40px 40px 60px 40px;
   margin: 0 40px;
@@ -103,6 +115,7 @@ p {
   margin: 20px 10px;
   border-radius: 20px;
 }
+/* Styling the about section */
 .about {
   padding: 80px 80px 60px 80px;
   margin: 40px 0;
@@ -112,20 +125,26 @@ p {
   text-align: center;
 }
 .about h3,
-p,
 h4 {
   padding-bottom: 30px;
+  text-align: left;
+}
+.about p {
   text-align: left;
 }
 .about iframe {
   padding-bottom: 30px;
 }
+/* Styling the work section */
 .work {
   padding-bottom: 30px;
   padding: 80px 80px 0 80px;
 }
 .work h2 {
   padding-bottom: 20px;
+}
+.work p {
+  text-align: left;
 }
 .workdivbox {
   display: flex;
@@ -151,6 +170,7 @@ h4 {
 .workdivbox1 a:hover {
   background-color: maroon;
 }
+/* DStyling the resume section */
 .resume {
   padding: 80px 80px 60px 80px;
   margin: 40px 0;
@@ -174,6 +194,7 @@ p {
   text-decoration: none;
   color: white;
 }
+/* Styling the contact us section */
 .contact {
   padding: 80px 80px 60px 80px;
   margin: 40px 0;
@@ -205,6 +226,7 @@ p {
 .contact form button:hover {
   background-color: maroon;
 }
+/* Footer styling */
 footer {
   width: 100%;
   background-color: rgb(227, 222, 222);
