@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: roboto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  border: 2px solid black;
+  margin: auto;
+  padding: 40px 40px;
+  width: 100%;
+  gap: 5px;
+}
+header h1 {
+  margin: 0px;
+  font-size: 25px;
+  color: white;
+}
+header form {
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+nav ul li a:any-link {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: red;
+}
+nav ul li a:active {
+  color: brown;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(239, 233, 233);
+  border: 2px solid black;
+  padding: 40px 70px;
+  color: rgb(0, 0, 0);
+}
+.introdiv {
+  align-items: center;
+  justify-content: center;
+}
+.intro h2 {
+  padding: 10px;
+  font-size: 40px;
+}
+.intro p {
+  padding: 10px;
+}
+.intro button {
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  border: 2px solid white;
+  border-radius: 9px;
+  margin: 7px;
+}
+.intro button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.intro img {
+  padding: 20px;
+  border-radius: 50%;
+}
+.specialties {
+  display: block;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(255, 255, 255);
+  padding: 40px 70px;
+  color: rgb(0, 0, 0);
+}
+.specialties h3 {
+  margin: 10px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+.splist .splistdiv1 {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.splistdiv1 div {
+  padding: 60px;
+  background-color: brown;
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.splistdiv1 div:hover {
+  border: 3px solid black;
+  box-shadow: inset 0 0 0 5px white;
+}
+.splistdiv1 div p {
+  font-size: 50px;
+}
+.about {
+  align-items: center;
+  justify-content: center;
+  background: rgb(239, 233, 233);
+  padding: 40px 70px;
+  color: rgb(0, 0, 0);
+}
+.about h3 {
+  margin: 10px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.aboutdiv {
+  display: block;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.about iframe {
+  margin: 20px;
+  display: inline-block;
+  width: 500px;
+}
+.about h4 {
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+}
+.about p {
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(239, 233, 233);
+}
+footer p {
+  padding: 5px;
+}
+.work {
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  padding: 40px 70px;
+  color: rgb(0, 0, 0);
+  border-radius: 20px 0;
+}
+.work h2 {
+  padding: 10px;
+  font-size: 25px;
+}
+.work p {
+  padding: 10px;
+  margin: 5px;
+}
+.workdiv {
+  gap: 20px;
+}
+.workdivbox1 {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 0 20px;
+}
